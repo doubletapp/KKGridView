@@ -31,8 +31,8 @@ struct KKSectionMetrics {
     
     // Metrics
     struct KKMetricsArray {
-        struct KKSectionMetrics * const sections;
-        NSUInteger const count;
+        struct KKSectionMetrics * sections;
+        NSUInteger count;
     } _metrics;
     
     // Cell containers
